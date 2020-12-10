@@ -7,7 +7,7 @@ tele_enable=False
 sign='https://n.cg.163.com/api/v2/sign-today'
 current='https://n.cg.163.com/api/v2/client-settings/@current'
 
-cookie=sys.argv[1]
+cookie="_ntes_nnid=13fde1644cd13d144b355c75fb9a20c5,1604302884583; _ntes_nuid=13fde1644cd13d144b355c75fb9a20c5; usertrack=ezq0ZV+srVUlHlUaAynCAg==; nts_mail_user=a77582585843803@163.com:-1:1; P_INFO=kbtxwer@126.com|1606912948|0|mail126|00&99|sxi&1600490262&mail126#sxi&610100#10#0#0|185275&0||kbtxwer@126.com; hb_MA-BFF5-63705950A31C_source=www.baidu.com"
 teleid=sys.argv[2]
 teletoken=sys.argv[3]
 if cookie=="":
