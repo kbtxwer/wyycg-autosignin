@@ -7,7 +7,7 @@ tele_enable=False
 sign='https://n.cg.163.com/api/v2/sign-today'
 current='https://n.cg.163.com/api/v2/client-settings/@current'
 
-cookie="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzIiwiaWF0IjoxNjA2NjI4MzY0LCJmcmVzaCI6ZmFsc2UsIm5iZiI6MTYwNjYyODM2NCwianRpIjoiMzEyMDEzNWUtZWRiNi00Njg2LWI3NmYtNWM1NGE3ZjUxZjU3IiwiaWRlbnRpdHkiOiI1ZGUxMjJhNjk2MzAwYjU3MmEzOWE3ZWIiLCJ1c2VyX2NsYWltcyI6eyJudW1iZXIiOjI3NTkyMjk4MSwic2FsdCI6ODUsInRpbWVzdGFtcCI6MTYwNjYyODM2NH19.ebh--_ld0RfDRAdY9KmKu5Dj6fb-_K4btLXdHA5ko2g"
+cookie=sys.argv[1]
 teleid=sys.argv[2]
 teletoken=sys.argv[3]
 if cookie=="":
